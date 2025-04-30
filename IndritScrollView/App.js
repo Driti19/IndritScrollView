@@ -16,8 +16,10 @@ const App = () =>  {
        
         <View style={styles.root2}>
           <ScrollView contentContainerStyle={{ height: 2400 }}>
-            <View style={styles.box1}><Text>navbar</Text></View>
-            <View style={styles.box2}></View>
+            
+            <View style={styles.box2}>
+            <Text>navbar</Text>
+            </View>
             <View style={styles.box1}></View>
             <View style={styles.box2}></View>
             <View style={styles.box1}></View>
